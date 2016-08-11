@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_h5m_why_ww">
+  <title>Query Workbench</title>
+         <shortdesc> This topic is a sample to test if Carole Anne Videan can produce a document.</shortdesc>
+  <body>
+    <p>The Query Workbench is used to enter a Query about data held in a Couchbase repository using
+      the N1QL Editor. The results or errors and help messages are displayed below in the Results
+      section.</p>
+    <p>From the Couchbase Console select the Query tab:</p>
+    <image placement="break" width="600" align="left" href="Query%20Workbench.jpg" id="image_ank_zys_xw"/>
+    <p>The Query Console is displayed.</p>
+    <section>
+      <title>Selecting a Data Bucket</title>
+      <p>Under Bucket Analysis is a list of all the Data Buckets available.</p>
+      <p>Click the Data Bucket you want to run a Query on.</p>
+      <p>The Data Bucket is expanded to display the data structure or Schema.</p>
+    </section>
+    <section>
+      <title> Entering a Query </title>
+      <p>Click in the N1QL Editor and type the first line of your query.</p>
+      <p>  Then select the Enter key and type any additional lines.</p>
+      <p><b>Note:</b>      A list of Query commands is available at LINK.</p>
+      <p>When all the Query commands are entered click the <image href="Execute%20button.jpg"
+          id="image_eg1_k12_xw"/> button to run the query and display the results in the Results
+        section.</p>
+    </section>
+    <section>
+      <title> Viewing Results</title>
+      <image placement="break" width="600" align="left" href="Successful%20Query%20Workbench.jpg"
+        id="image_oky_41f_xw"/>
+      <p>The Status returned by the Query is highlighted in red above.</p>
+      <p>If the Query is successful the Status will display "executing", then "success" and display the results in the Results section.</p>
+      <p>If the Query has failed the Status will display an error code or "error" and will display an error messge indicating why it has failed in the Results section.</p>
+    </section>
+    <section>
+      <title>Getting More Information About an Error</title>
+      <p>Click on the arrow to the left of the Clear History button to run the Query again and
+        display different information:</p>
+      <image placement="break" width="600" align="left" href="Error%20lline.jpg"
+        id="image_ct5_3lf_xw"/>
+    </section>
+    <section>
+      <title>Running Another Query</title>
+      <p> Click the Clear History button to remove the Query results.</p>
+      <p>Correct or replace the Query and click the Execute button again.</p>
+    </section>
+  </body>
+</topic>
